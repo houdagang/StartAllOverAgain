@@ -12,6 +12,7 @@ public class AdHero extends Hero {
     protected String lx;
 
     public AdHero(int i) {
+        super("张三",15);
         System.out.println("AdHero的构造方法");
         //this.hp指的是父类或者自身的hp参数，后面是传的值
         //this指的是当前对象
@@ -23,7 +24,7 @@ public class AdHero extends Hero {
      *      返回值可以相同也可以不同。修饰符可以相同也可以不同。异常可以相同也可以不同。
      *      方法能够在同一个类中或者在一个子类中被重载。
      * 重写：重写是指子类继承父类，方法名，返回值和参数列表都必须相同，但是里面的内容可以不同，
-     *      子类抛出的异常不能大于父类抛出的异常。
+     *      子类抛出的异常不能大于父类抛出的异常。(用于父类的对象方法，隐藏：用于父类的类（静态）方法)
      */
 
     public void attack() {

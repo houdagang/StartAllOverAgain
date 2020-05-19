@@ -32,6 +32,7 @@ public class Hero {
     public Hero(String name,int hp) {
         this.name = name;
         this.hp = hp;
+        System.out.println(this.name + "血量是" + this.hp);
     }
 
 
