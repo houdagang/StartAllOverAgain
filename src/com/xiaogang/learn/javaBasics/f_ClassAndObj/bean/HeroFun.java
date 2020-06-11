@@ -30,7 +30,7 @@ public class HeroFun {
         teemo.name = "提莫";
         //和访问类属性一样，调用类方法也有两种方式
         //1. 对象.类方法
-        garen.battleWin();
+        garen.die();
         //2. 类.类方法
         //无需对象，直接通过类调用
         HeroFun.battleWin();

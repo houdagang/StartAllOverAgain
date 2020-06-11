@@ -11,8 +11,9 @@ public class Array2 {
     public static void main(String[] args) {
 
         //复制数组
-        int a [] = new int[]{18,62,68,82,65,9};
-        int b[] = new int[3];//分配了长度是3的空间，但是没有赋值
+        int [] a = new int[]{18,62,68,82,65,9};
+        //分配了长度是3的空间，但是没有赋值
+        int [] b = new int[3];
         //通过数组赋值把，a数组的前3位赋值到b数组
         //方法一： for循环
         for (int i = 0; i < b.length; i++) {

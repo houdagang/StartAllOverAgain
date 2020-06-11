@@ -38,7 +38,7 @@ public class Operator {
          * 单位长度超过int
          */
         int e = 5;
-        long f = 7l;
+        long f = 7L;
         int g = (int)(e + f);
         long h = e + f;
         System.out.println(g);

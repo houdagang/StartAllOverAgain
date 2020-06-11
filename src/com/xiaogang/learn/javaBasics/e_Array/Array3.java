@@ -11,7 +11,7 @@ import java.util.Arrays;
 public class Array3 {
 
     public static void main(String[] args) {
-        int a[] = new int[] { 18, 62, 68, 82, 65, 9 };
+        int [] a = new int[] { 18, 62, 68, 82, 65, 9 };
 
         //复制数组
         // copyOfRange(int[] original, int from, int to)

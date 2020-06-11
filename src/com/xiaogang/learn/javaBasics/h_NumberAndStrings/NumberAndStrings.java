@@ -30,6 +30,21 @@ public class NumberAndStrings {
         //int的最小值
         System.out.println(Integer.MIN_VALUE);
 
+        /**
+         * 数字与字符串
+         */
+        //数字转成字符串
+        int a = 5;
+        //方法1
+        String str = String.valueOf(a);
+        //方法2
+        Integer a1 = a;
+        String str1 = a1.toString();
+
+        //字符串转成数字
+        String str2 = "999";
+        int b = Integer.parseInt(str2);
+
     }
 
 }
