@@ -27,9 +27,9 @@ public class DataType1 {
     public static void main(String[] args) {
         long val = 26L; //以L结尾的字面值表示long型
         int decVal = 26; //默认就是int型
-        int hexVal = 0x1a; //16进制
-        int oxVal = 032; //8进制
-        int binVal = 0b11010; //2进制
+        int hexVal = 0x1a; //16进制 0x开头
+        int oxVal = 032; //8进制 0开头
+        int binVal = 0b11010; //2进制 0b开头
         System.out.println(oxVal);
         System.out.println(binVal);
 

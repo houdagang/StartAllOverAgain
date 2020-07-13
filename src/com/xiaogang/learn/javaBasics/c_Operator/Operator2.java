@@ -70,7 +70,7 @@ public class Operator2 {
          * 左移右边补零，超出抹去右边  *2
          * 右移左边补零或者符号位，超出抹去坐边 /2
          */
-        byte j  =6;
+        byte j = 6;
         //6的二进制是110
         System.out.println(Integer.toBinaryString(j));
         //6向左移1位后，变成1100，对应的10进制是12

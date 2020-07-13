@@ -38,13 +38,15 @@ class TicketMachine implements Runnable{
         }
     }
 
-    private void buy() throws InterruptedException {
+    private synchronized void buy() throws InterruptedException {
         if(ticketNum <= 0) {
             this.flag = false;
             System.out.println("票已经卖光了");
-        } else {
-            System.out.println(Thread.currentThread().getName() + "买了第" + ticketNum-- + "张票");
+            return;
         }
+        Thread.sleep(100);
+        System.out.println(Thread.currentThread().getName() + "买了第" + ticketNum-- + "张票");
+
     }
 
 }
